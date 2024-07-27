@@ -1,0 +1,27 @@
+
+
+div{
+    display: inline-block;
+    outline:1px solid black;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+/* span{
+   
+    display: flex;
+    align-items: center;
+    outline: 1px solid  black;
+    justify-content: center;
+
+} */
+
+section{
+    text-align: center;
+    
+}
