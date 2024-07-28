@@ -20,3 +20,11 @@ const yown = ((input1, input2) =>{
     input1.value = "";
     input2.value = "";
 })
+
+list.addEventListener("click", (e)=>{
+   
+    if (e.target && e.target.nodeName === "LI"){
+        e.target.remove();
+    }
+    console.log(e)
+})
