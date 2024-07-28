@@ -17,7 +17,6 @@ const yown = ((input1, input2) =>{
     li.innerText = `${input1.value} ${input2.value}` ;
     list.append(li);    
     console.log(li);
-
     input1.value = "";
     input2.value = "";
 })

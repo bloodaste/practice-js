@@ -1,32 +1,5 @@
 
 
-
-
-
-
-// v2.onclick = function (){
-//     document.body.style.backgroundColor = "red";
-// }
-
-
-
-// const v3 = document.getElementById("b");
-
-// v3.addEventListener('dblclick', () => {
-//     alert("you click me")
-// })
-
-// function screem (){
-//     console.log("done");
-// }
-
-// function bruh (){
-//     console.log("done2");
-// }
-
-// v3.addEventListener("click", bruh);
-// v3.addEventListener("click", screem)
-
 const body = document.querySelector("body")
 const btn = document.querySelectorAll("button");
 const h1= document.querySelectorAll("h1");
