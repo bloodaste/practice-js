@@ -7,5 +7,5 @@ input.addEventListener("input", (e) => {
     } else {
         h1.innerText = `Welcome, ${input.value}`;
     }
-    e.stopPropagation();
+    // e.stopPropagation();
 });

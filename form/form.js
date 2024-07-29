@@ -5,13 +5,9 @@ const list = document.querySelector("#list");
 form.addEventListener("submit", (event) =>{
 
     event.preventDefault();
-    // const input = input1.value;
-    // const input3 = input2.value;
-
     yown(input1, input2);
  
 })  
-
 const yown = ((input1, input2) =>{
     const li = document.createElement("li");
     li.innerText = `${input1.value} ${input2.value}` ;
